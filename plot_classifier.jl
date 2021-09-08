@@ -74,35 +74,16 @@ plt_data = @pgf GroupPlot(
             label = data_y_pred
         ),
     ),
-
-    # axis 3 (filled contour)
-    # {
-    #     xlabel=L"$\mu^{(1)}$",    # TODO: add bold font in paper!
-    #     ylabel=L"$\mu^{(2)}$",
-    #     grid = "major",
-    #     title = "classification map"
-    # },
-    # # plots for axis 3
-    # Plot(
-    #     {
-    #         patch,
-    #         patch_refines=3,
-	# 	    shader="faceted interp",
-	# 	    patch_type="biquadratic"
-    #     },
-    #     Table(
-    #         x = data_x_map[1,:],
-    #         y = data_x_map[2,:],
-    #         z = data_y_map
-    #     ),
-    # ),
-
     {
         xlabel=L"$\mu^{(1)}$",    # TODO: add bold font in paper!
         ylabel=L"$\mu^{(2)}$",
         grid = "major",
         title = "classification map",
-        view = (0, 90)
+        view = (0, 90),
+        colorbar,
+        colorbar_style = {
+            ytick = "{0, 1}"
+        }
     },
     Plot3(
         {
