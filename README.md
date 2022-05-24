@@ -1,6 +1,6 @@
 # Hybrid Inference with Invertible Neural Networks in Factor Graphs
 *By Bart van Erp and Bert de Vries*
-### Submitted to the 2022 European Signal Processing Conference (EUSIPCO)
+### Accepted to the 2022 European Signal Processing Conference (EUSIPCO)
 ---
 **Abstract**
 
