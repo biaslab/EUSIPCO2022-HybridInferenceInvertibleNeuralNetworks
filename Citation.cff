@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this research as below."
+authors:
+- family-names: "van Erp"
+  given-names: "Bart"
+  orcid: "https://orcid.org/0000-0002-5619-7071"
+- family-names: "de Vries"
+  given-names: "Bert"
+title: "Hybrid Inference with Invertible Neural Networks in Factor Graphs"
+version: 1.0.0
+date-released: 2022-08
+url: "https://github.com/biaslab/EUSIPCO2022-HybridInferenceInvertibleNeuralNetworks"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "van Erp"
+    given-names: "Bart"
+    orcid: "https://orcid.org/0000-0002-5619-7071"
+  - family-names: "de Vries"
+    given-names: "Bert"
+  title: "Hybrid Inference with Invertible Neural Networks in Factor Graphs"
+  year: 2022
+  month: 08
+  conference:
+    - name: 2022 30th European Signal Processing Conference (EUSIPCO)
+  start: 1397
+  end: 1401
